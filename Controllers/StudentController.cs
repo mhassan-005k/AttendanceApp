@@ -38,16 +38,16 @@ namespace AttendanceApp.Controllers
                      var teacherId = HttpContext.Session.GetInt32("TeacherId");
 
                 student = new StudentAttendance
-                    {
-                        ClassId = vm.ClassId,
-                        Name = vm.Name,
-                        CMS_ID = vm.CMS_ID,
-                        Email = vm.Email,
-                        JoinDate = today,
-                        //JoinTime = DateTime.Now,
-                        JoinTime = pakTime,
-                        JoinCount = 1,
-                        TeacherId = teacherId.Value
+                {
+                    ClassId = vm.ClassId,
+                    Name = vm.Name,
+                    CMS_ID = vm.CMS_ID,
+                    Email = vm.Email,
+                    JoinDate = today,
+                    //JoinTime = DateTime.Now,
+                    JoinTime = pakTime,
+                    JoinCount = 1,
+                    TeacherId = cls.TeacherId
                 };
 
                     _context.StudentAttendance.Add(student);
