@@ -96,16 +96,31 @@ dotnet run
 
 ---
 
-🚀 Attendo: Community vs. Professional Version
+## 🚀 Attendo: Community vs. Professional
 
-Feature,Community (Open Source),Professional (Enterprise)
-Attendance Tracking,Basic List,Advanced Analytics
-Identity Verification,CMS ID Input,Cryptographic Identity Locking
-Fraud Prevention,Reconnect Limits,Hardware Fingerprinting
-Anti-Proxy Shield,❌,Shared-Device Cooldown Logic
-Zoom Integration,Web Redirect,Native Deep-Link Protocol
-Reporting,Standard Excel,Forensic Audit (Auto-Flagging)
-Global Controls,Fixed Settings,Admin Dashboard & API Access
+Whether you are a small non-profit or a large-scale enterprise, **Attendo** scales with your security needs. Choose the version that fits your institution's requirements.
+
+### Feature Comparison
+
+| Feature | Community (Open Source) | Professional (Enterprise) |
+| :--- | :--- | :--- |
+| **Attendance Tracking** | Basic List | Advanced Analytics & Insights |
+| **Identity Verification** | CMS ID Input | **Cryptographic Identity Locking** |
+| **Fraud Prevention** | Reconnect Limits | **Hardware Fingerprinting** |
+| **Anti-Proxy Shield** | ❌ | Shared-Device Cooldown Logic |
+| **Zoom Integration** | Web Redirect | Native Deep-Link Protocol |
+| **Reporting** | Standard Excel | **Forensic Audit (Auto-Flagging)** |
+| **Global Controls** | Fixed Settings | Admin Dashboard & API Access |
+
+---
+
+### 🛡️ Why Choose the Professional Suite?
+
+While the **Community Edition** is perfect for basic tracking and open collaboration, the **Professional Security Layer** is designed for high-stakes environments where integrity is non-negotiable.
+
+* **Verified Attendance:** Prevent "proxy" check-ins with device-level locking.
+* **Anti-Cheat Protocols:** Advanced logic to detect and block fraudulent reconnection attempts.
+* **Compliance Ready:** Export forensic-grade audits that automatically flag suspicious patterns.
 
 Interested in the Professional Suite? If your institution requires verified attendance and anti-cheat protocols, feel free to reach out for a demo of the Pro Security Layer.
 
